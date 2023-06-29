@@ -7,8 +7,10 @@ import os
 import sys
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
+from dotenv import load_dotenv
 
 # Loads 
+load_dotenv()
 
 # Creates FastAPI app
 app = FastAPI()
