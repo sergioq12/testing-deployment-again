@@ -10,6 +10,10 @@ __pycache__/
 test_venv
 /test_venv
 .test_venv
+test_venv/
+
+# without favicorn
+favicon.ico
 
 # Distribution / packaging
 .Python
