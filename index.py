@@ -4,13 +4,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from bcrypt import gensalt, hashpw, checkpw
 import jwt
 import os
-from dotenv import load_dotenv
 import sys
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
 # Loads 
-load_dotenv()
 
 # Creates FastAPI app
 app = FastAPI()
